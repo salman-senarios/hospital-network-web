@@ -1,0 +1,245 @@
+//============== Header ===================
+.header {
+  display: flex;
+  padding: 15px 0 0 15px;
+}
+.header h4 {
+  color: rgb(47, 63, 84);
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0px;
+  border-bottom: #2f3f54;
+}
+
+// ============ Upgrade required ================
+.upgradebox {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-left: 14px;
+  border-radius: 10px;
+  background-color: rgb(254, 238, 238);
+  width: 95%;
+
+  // background-color: rgb(231, 236, 241);
+  // border-bottom: thin solid rgb(231, 236, 241);
+}
+.divdata {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 12px;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgb(242, 68, 94);
+}
+
+.divIcon {
+  color: rgb(242, 68, 94);
+  margin-right: 5px;
+}
+.data h6 {
+  color: rgb(242, 68, 94);
+}
+
+.freebtn button {
+  background: rgb(242, 68, 94);
+  border: thin solid rgb(242, 68, 94);
+  margin-top: 25px;
+  margin-right: 20px;
+  font-weight: bold;
+  color: white;
+  border-radius: 6px;
+  height: 40px;
+  width: 121px;
+}
+//================ Table ==================
+.headbox2 {
+  display: flex;
+  justify-content: space-between;
+  // border-bottom: thin solid rgb(231, 236, 241);
+  
+}
+.heading {
+  color: rgb(122, 130, 141);
+  font-size: 14px;
+  margin: auto 0px;
+}
+.addbtn button {
+  border-radius: 6px;
+  padding: 10.5px 20px;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  background: rgb(46, 127, 213);
+  border: thin solid rgb(46, 127, 213);
+  display: inline-block;
+  width: auto;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin: 0px;
+  line-height: 1;
+  font-size: 15px;
+}
+
+// =============== Add User Portion ===================
+
+.box2 {
+  // background-color: rgb(231, 236, 241);
+   background: rgb(242, 245, 249);
+  margin-top: 15px;
+  height: auto;
+  padding: 20px;
+  margin-left: 14px;
+  border-radius: 10px;
+  width: 95%;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  height: auto;
+}
+
+.table td{
+    line-height: 40px;
+    font-size: 14px;
+}
+.table th{
+    line-height: 35px;
+    border-bottom: 1px solid #bcbfc4;
+    color: #2f3f54;
+    font-size: 14px;
+}
+
+.span {
+  font-size: 12px;
+  height: 24px;
+  line-height: 24px;
+  padding: 0px 12px;
+  border-radius: 100px;
+  display: inline-block;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(75, 214, 129);
+}
+
+.selector {
+  appearance: none;
+  outline: 0px;
+  border: 1px solid rgb(231, 236, 241);
+  font-size: 15px;
+  line-height: 1.6;
+  padding: 5px 50px 5px 10px;
+  border-radius: 6px;
+  transition: box-shadow 0.1s ease 0s;
+  width: 90%;
+  min-width: 110px;
+}
+//============= about Container ===========
+.Container2 {
+  display: flex;
+  flex-direction: column;
+  // background-color: rgb(231, 236, 241);
+   background: rgb(242, 245, 249);
+  border-radius: 10px;
+  width: 95%;
+  height: auto;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.heading2 p {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px 19px;
+  margin: 0px;
+  color: #2f3f54;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 0 15px;
+}
+
+.paragraph p {
+  color: rgb(108, 122, 140);
+  font-size: 14px;
+}
+
+.roleheading {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 0 0 15px;
+}
+.roleheading p {
+  color: #2f3f54;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+//============table 2 styling =============
+
+.tabl {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-collapse: collapse;
+  background: rgb(247, 250, 252);
+  // background: rgb(209, 209, 209);
+  border-radius: 10px;
+  width: 95%;
+  margin-left: 14px;
+}
+
+.table2 {
+    height: auto;
+    width: 100%;
+}
+.table2 tr {
+  // border-bottom: 1px solid rgb(136, 136, 136);
+ line-height: 40px;
+}
+
+.table2 th {
+    padding: 0 0 0 70px;
+    color: #2f3f54;
+    border-bottom: 1px solid rgb(136, 136, 136);
+}
+
+.table2 td {
+    padding: 0 0 0 70px;
+}
+//===table base ===
+.tablebase {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 20px;
+    margin-top: 25px;
+}
+
+.basedata{
+    font-size: 14px;
+}
+
+//===== base =======
+.base {
+    display: flex;
+    margin: 20px 0 0 15px;
+}
+.base p {
+    color: #2e7fd5;
+    font-size: 16px;
+}
+

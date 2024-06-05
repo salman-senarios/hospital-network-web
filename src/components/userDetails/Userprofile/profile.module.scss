@@ -1,0 +1,88 @@
+.scroll_div {
+  height:100vh;
+  overflow: scroll;
+  background-color: white;
+  .container {
+    background-color: white;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid lightgrey;
+    .head {
+      display: flex;
+      gap: 8px;
+
+      padding-top: 10px;
+      img {
+        height: 37px;
+        width: 14%;
+        border-radius: 50%;
+      }
+      .name {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        .icon {
+          color: rgb(72, 168, 206);
+        }
+        .icon2 {
+          color: rgb(189, 187, 187);
+        }
+      }
+    }
+    .folowlist {
+      ul {
+        padding-top: 10px;
+        list-style: none;
+        
+        display: flex;
+        justify-content: space-around;
+        li {
+          color: grey;
+          font-size: 14px;
+        }
+        span {
+          font-size: 16px ;
+          font-weight: 600 ;
+          color: rgb(45 152 195) ;
+        }
+      }
+    }
+    .link1 {
+      display: flex;
+      font-size: 14px;
+      span {
+        color: rgb(150, 146, 146) ;
+        font-size: 16px !important;
+      }
+    }
+    .btn1 {
+      padding-top: 14px;
+      .button1 {
+        background-color: #1388b7 ;
+        color: white ;
+        border-radius: 5px;
+        height: 5vh;
+        span {
+          font-size: 18px ;
+        }
+      }
+    }
+    .two_btns {
+      display: flex;
+      gap: 5px;
+      padding-top: 7px;
+      border-bottom: 1px solid rgb(237 227 227);
+      .button2 {
+        background-color: solid white ;
+        color: #1388b7 ;
+        gap: 8px;
+        font-size: 14px;
+        outline: auto;
+        outline-color: #d7dfe9 ;
+        span {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

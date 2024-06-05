@@ -1,0 +1,96 @@
+.main {
+  background: rgb(255, 255, 255);
+  height: 71vh;
+  overflow-y: auto;
+  padding: 10px 20px 19px !important;
+  //  height:100vh;
+  .container_two {
+    display: block;
+    position: relative;
+    padding-left: 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default checkbox */
+  .container_two input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    border-radius: 2px;
+  }
+
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: -24px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid rgb(187, 192, 197);
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  /* On mouse-over, add a grey background color */
+  .container_two:hover input ~ .checkmark {
+    background-color: rgb(224, 217, 217);
+  }
+
+  /* When the checkbox is checked, add a blue background */
+  .container_two input:checked ~ .checkmark {
+    background: rgb(46, 127, 213);
+    border: 2px solid rgb(150 186 225);
+    border-radius: 2px;
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+    border-width: 0px 2px 2px 0px;
+    top: 2px;
+    left: 6px;
+    width: 6px;
+    height: 11px;
+    transform: rotate(45deg);
+    display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .container_two input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .container_two .checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .list_mian {
+    border-bottom: thin solid rgb(233, 233, 234);
+    padding: 14px 0px 16px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .filter1 {
+    margin-left: 20px;
+  }
+}

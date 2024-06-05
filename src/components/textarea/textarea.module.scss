@@ -1,0 +1,41 @@
+@use "styles/_colors.scss" as c;
+
+.note {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  label {
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    display: block;
+    color: #5e5e5e;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  textarea {
+    background: #ffffff;
+    box-shadow: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 14px;
+    width: 100%;
+    font-weight: 400;
+    padding: 6px 14px;
+    resize: none;
+    &::placeholder {
+      font-size: 14px;
+      font-weight: normal;
+      line-height: 21px;
+      font-family: "Mulish";
+    }
+  }
+}
+
+.errorMessage {
+  position: absolute;
+  display: block;
+  font-size: 12px;
+  margin-left: 5px;
+  bottom: -18px;
+  color: #ff5050;
+}

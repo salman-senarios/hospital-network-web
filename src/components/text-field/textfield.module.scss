@@ -1,0 +1,59 @@
+@use "styles/_colors.scss" as c;
+
+.textFieldWrapper {
+  width: 100%;
+  position: relative;
+
+  label {
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    display: block;
+    color: #5e5e5e;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .inputDiv {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+
+    .icon {
+      position: absolute;
+      right: 20px;
+      cursor: pointer;
+    }
+    input {
+      background: #ffffff;
+      box-shadow: none;
+      border: none;
+      font-size: 14px;
+      width: 100%;
+      font-weight: 400;
+      padding: 6px 8px;
+
+      &::placeholder {
+        color: rgb(209, 209, 209);
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 21px;
+      }
+    }
+    // input[type="password"] {
+    //   &::placeholder {
+    //     position: relative;
+    //     top: 2px;
+    //   }
+    // }
+  }
+}
+
+.errorMessage {
+  position: absolute;
+  display: block;
+  font-size: 12px;
+  margin-left: 5px;
+  color: #ff5050;
+}

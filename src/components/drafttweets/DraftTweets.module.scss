@@ -1,0 +1,242 @@
+.main {
+  background-color: #fff;
+  border-right: thin solid rgb(242, 245, 249);
+  // max-width: 592px;
+  //   height: auto;
+}
+.header {
+  //   height: 50px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: thin solid rgb(242, 245, 249);
+  flex-wrap: wrap;
+  height: 55px;
+}
+.heading {
+  a {
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(47, 63, 84);
+  }
+}
+.form {
+  display: none;
+}
+.icon_ref {
+  font-size: 22px;
+  //   margin-right: 10px;
+  color: rgb(108, 122, 140);
+}
+.profile_main {
+  display: flex;
+  padding: 20px;
+  gap: 5px;
+  background-color: #fff;
+}
+.profile_img {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile_main textarea {
+  border: none;
+  resize: auto;
+  outline: none;
+  user-select: text;
+  overflow: hidden;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  height: auto;
+  font-size: 20px;
+  margin-top: 6px;
+}
+.profile_main textarea:focus {
+  border: none;
+}
+.txt_form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  font-size: 22px;
+  color: rgb(29, 161, 242);
+  margin-right: 10px;
+}
+.load_icon {
+  border-left: 2px solid lightgray;
+  font-size: 22px;
+  padding: 0px 0px 5px 10px;
+}
+.icon_spn {
+  font-size: 22px;
+  padding: 0px 3px 5px 0px;
+}
+.load_icon:hover,
+.icon_spn:hover {
+  background: rgba(29, 160, 242, 0.278);
+}
+.btn {
+  border-radius: 6px;
+  padding: 10.5px 20px;
+  text-align: center;
+  white-space: nowrap;
+  background-color: rgb(46, 127, 213);
+  border: thin solid rgb(46, 127, 213);
+  display: inline-block;
+  width: auto;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin: 0px;
+  line-height: 1;
+  font-size: 15px;
+}
+.btn:hover {
+  background: rgb(9, 101, 198);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  // background: rgb(232 234 237 / 60%);
+  width: 33%;
+  height: 100vh;
+  
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-left: 15px;
+  .heading1 {
+    
+    display: flex;
+    gap: 5px;
+    padding: 15px 0px;
+    h1 {
+      font-size: 17px;
+      font-weight: bold;
+    }
+    .Qicon {
+      margin-bottom: 8px;
+      font-size: 18px;
+    }
+  }
+  .mobileView {
+    display: flex;
+    flex-direction: column;
+    
+    span {
+      font-size: 17px;
+      font-weight: 600;
+      margin-top: 5px;
+    }
+    .Mbody {
+      display: flex;
+      background: white;
+      border-radius: 7px;
+      height: 13vh;
+      width: 96%;
+      padding: 10px 14px;
+      margin-top: 10px;
+      border: 1px solid lightgray;
+      img {
+        height: 46px;
+        width: 12%;
+        border-radius: 50%;
+        // margin: 10px;
+      }
+      .Mtext {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top:-10px;
+        margin-left: 3px;
+        .Uname {
+          display: flex;
+          padding-top: 7px;
+          gap: 7px;
+          h1 {
+            font-size: 15px;
+          }
+          span{
+            color: lightgray;
+            margin-top: -3px;
+          }
+        }
+        .Micons{
+          display: flex;
+          justify-content: space-between;
+          color: rgb(155, 153, 153);
+          margin-right: 7px;
+        }
+      }
+    }
+  }
+  //desktop
+
+  .desktopView {
+    display: flex;
+    flex-direction: column;
+     margin-top: 15px;
+    span {
+      font-size: 17px;
+      font-weight: 600;
+      // padding: 6px;
+    }
+    .Dbody {
+      display: flex;
+      background: white;
+      border-radius: 7px;
+      height: 10vh;
+      width: 96%;
+      padding: 10px 14px;
+      margin-top: 10px;
+      border: 1px solid lightgray;
+      img {
+        height: 35px;
+        width: 9%;
+        border-radius: 50%;
+        // margin: 10px;
+      }
+      .Dtext {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top:-10px;
+        margin-left: 3px;
+        .Dname {
+          display: flex;
+          padding-top: 7px;
+          gap: 7px;
+          font-size: 14px;
+          h1 {
+            font-size: 15px;
+          }
+          span{
+            color: lightgray;
+            margin-top: -3px;
+            font-size: 12px;
+          }
+          b{
+            font-size: 12px;
+          }
+         
+        }
+        .textdiv{
+          font-size: 9px;
+        }
+        .Dicons{
+          display: flex;
+          justify-content: space-between;
+          // margin-top: 4px;
+          margin-right: 7px;
+          font-size: 12px;
+          color: rgb(155, 153, 153);
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+}

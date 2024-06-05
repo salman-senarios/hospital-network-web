@@ -1,0 +1,34 @@
+@use "styles/_breakpoints.scss" as *;
+.main {
+  display: flex;
+  .leftDiv {
+    width: 20%;
+    @media (max-width: 1200px) {
+      display: none;
+    }
+  }
+  .centerDiv {
+    width: 49%;
+    @media (max-width: 1200px) {
+      width: 100%;
+    }
+  }
+  .rightDiv {
+    padding-left: 10px;
+    width: 29%;
+    @media (max-width: 1200px) {
+      display: none;
+    }
+  }
+  .fixed {
+    width: 16%;
+    height: 600px;
+    position: fixed;
+    right: 0;
+    // border: 1px solid;
+    max-width: 320px !important;
+    @media (max-width: 1700px) {
+      width: 18%;
+    }
+  }
+}

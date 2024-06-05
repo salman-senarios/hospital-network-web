@@ -1,0 +1,19 @@
+.card {
+  padding-bottom: 20px;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    > div {
+      display: flex;
+      align-items: center;
+      img {
+        margin-right: 10px;
+      }
+    }
+    p {
+      font-size: 17px;
+      color: #3b3b3b;
+    }
+  }
+}

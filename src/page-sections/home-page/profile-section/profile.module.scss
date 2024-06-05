@@ -1,0 +1,55 @@
+.card {
+  padding: 0 0 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  .bgDiv {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .profileDivMain {
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 102px;
+      height: 102px;
+    }
+    h5 {
+      color: #3b3b3b;
+      font-size: 18px;
+      margin-top: 8px;
+      font-weight: 400;
+    }
+  }
+  .cardFooter {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    margin-top: 10px;
+
+    li {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 5px 0;
+      p {
+        color: #818181;
+        font-size: 18px;
+      }
+      h4 {
+        font-size: 18px;
+        padding-top: 5px;
+        font-weight: normal;
+      }
+      &:nth-of-type(2) {
+        border-left: 1px solid #dbdbdb;
+        border-right: 1px solid #dbdbdb;
+      }
+    }
+  }
+}

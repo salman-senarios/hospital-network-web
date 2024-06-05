@@ -1,0 +1,77 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 22px;
+  border-bottom: thin solid rgb(242, 245, 249);
+  & :first-child {
+    color: rgb(47, 63, 84);
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .uid {
+    font-size: 14px;
+    color: #2f3f54;
+  }
+}
+.wrapper {
+  border-radius: 10px;
+  background: rgb(242, 245, 249);
+  margin-bottom: 30px;
+  color: #2f3f54;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: thin solid rgb(231, 236, 241);
+  padding: 10px 19px;
+
+  p {
+    color: rgb(108, 122, 140);
+    font-size: 14px;
+  }
+}
+.item {
+  grid-area: myArea;
+  text-align: start !important;
+}
+.grid {
+  color: #2f3f54 !important;
+  font-weight: bold;
+  font-size: 14px;
+  display: grid;
+  grid-template-areas: "myArea myArea . . ";
+  grid-gap: 10px;
+  padding: 10px 20px;
+  border-bottom: 1px solid rgb(231, 236, 241);
+  div {
+    // text-align: center;
+    font-size: 14px;
+  }
+}
+.btn {
+  border-radius: 6px;
+  padding: 10.5px 20px;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  background: rgb(46, 127, 213);
+  border: thin solid rgb(46, 127, 213);
+  display: inline-block;
+  width: auto;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin: 0px;
+  line-height: 1;
+  font-size: 15px;
+}
+.detail {
+  text-align: center;
+  align-items: center;
+  padding: 15px 0px;
+  h3 {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0px 0px 25px;
+    line-height: 1.6;
+  }
+}

@@ -1,0 +1,25 @@
+@use "styles/_mixin.scss" as *;
+
+.card {
+  margin-bottom: 20px;
+
+  .cardBody {
+    display: flex;
+    align-items: center;
+
+    flex-wrap: wrap;
+    .leftDiv {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      .selectDiv {
+        flex-basis: 130px;
+        margin: 3px 5px;
+      }
+      .imgDiv {
+        margin-left: 20px;
+      }
+    }
+  }
+}

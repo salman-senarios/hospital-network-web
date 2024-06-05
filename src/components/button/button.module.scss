@@ -1,0 +1,23 @@
+@use "styles/_colors.scss" as *;
+
+.btn {
+  background-color: $btn;
+  color: #ffff;
+  text-transform: capitalize;
+  outline: none !important;
+  height: 41px;
+  border-radius: 5px;
+  padding: 14px;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid $btn;
+  cursor: pointer;
+  font-size: 18px;
+  .loaderClass {
+    width: 24px;
+    height: 24px;
+  }
+}

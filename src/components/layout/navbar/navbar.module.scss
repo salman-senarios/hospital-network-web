@@ -1,0 +1,15 @@
+.chatIconDiv {
+  position: fixed;
+  bottom: 55px;
+  right: 60px;
+  z-index: 1000;
+  width: 40px;
+  display: block;
+  @media (max-width: 992px) {
+    display: none;
+  }
+  & img {
+    width: 40px;
+    cursor: pointer;
+  }
+}

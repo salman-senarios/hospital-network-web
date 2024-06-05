@@ -1,0 +1,19 @@
+.container {
+  width: 13.9375rem;
+  border: 1px solid rgb(231, 236, 241);
+  height: 100vh;
+  // overflow-y: auto;
+}
+.line {
+  border-bottom: 6px solid rgb(231, 236, 241);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.dashboard {
+  height: calc(100vh - 126px);
+  overflow-y: auto;
+  .child {
+    min-height: calc(100vh - 132px);
+  }
+}

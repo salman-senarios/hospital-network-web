@@ -1,0 +1,185 @@
+.container {
+  padding: 30px 22px;
+}
+
+.notification {
+  border-radius: 10px;
+  background: rgb(242, 245, 249);
+}
+
+.heading {
+  border-bottom: thin solid rgb(231, 236, 241);
+  h2 {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 19px;
+    margin: 0px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+  }
+}
+.setting {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  p {
+    color: rgb(108, 122, 140);
+    text-align: center;
+    margin: 10px 0px 0px;
+    line-height: 1.7;
+  }
+}
+.icon {
+  font-size: 30px;
+  color: rgb(108, 122, 140);
+}
+
+.btn {
+  border-radius: 6px;
+  padding: 10.5px 20px;
+  cursor: pointer;
+  text-align: center;
+  background: rgb(46, 127, 213);
+  border: thin solid rgb(46, 127, 213);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin: 0px;
+  line-height: 1;
+  font-size: 15px;
+}
+.link {
+  padding: 20px;
+  font-size: 15px;
+  line-height: 1.8;
+  ul {
+    font-size: 15px;
+    line-height: 1.8;
+    padding-left: 30px;
+    margin: 0px;
+    a {
+      text-decoration: none;
+    }
+  }
+  div {
+    margin-left: 12px;
+  }
+}
+.help {
+  text-decoration: none !important;
+}
+.subHeading {
+  font-weight: bold;
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+.account {
+  padding: 20px;
+}
+.feedback {
+  ol {
+    padding-left: 1rem;
+    margin-bottom: 0.6rem;
+  }
+  li {
+    font-size: 14px;
+    color: #2f3f54;
+  }
+  li span {
+    color: red;
+  }
+  .form {
+    margin-left: -15px;
+  }
+  label {
+    display: flex;
+    cursor: pointer;
+    color: #2f3f54;
+    font-size: 14px;
+    input {
+      margin-right: 10px;
+      // border: 1px solid rgb(187, 192, 197) !important;
+      border-radius: 3px;
+      background-color: rgb(255, 255, 255);
+      height: 20px;
+      width: 20px;
+    }
+  }
+  .hide {
+    display: flex;
+    align-items: center;
+  }
+  .subDetail {
+    width: 290px;
+    max-width: 100%;
+    text-align: right;
+    font-weight: bold;
+    label {
+      padding: 6px 5px;
+      margin-bottom: 5px;
+    }
+  }
+  .comment {
+    flex: 1;
+    color: #2f3f54;
+    input {
+      outline: 0px;
+      font-size: 15px;
+      line-height: 1.6;
+      padding: 5px 10px;
+      border-radius: 6px;
+      transition: box-shadow 0.1s ease 0s;
+      width: 100%;
+      max-width: 400px;
+      border: 1px solid rgb(231, 236, 241);
+      background-color: rgb(255, 255, 255);
+    }
+  }
+  textarea {
+    color: #2f3f54;
+    resize: none;
+    outline: 0px;
+    border: 1px solid rgb(231, 236, 241);
+    background: rgb(255, 255, 255);
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: box-shadow 0.1s ease 0s;
+    width: 100%;
+  }
+}
+.btnCancel {
+  padding: 20px;
+  border-top: thin solid rgb(231, 236, 241);
+  display: flex;
+  justify-content: space-between;
+  & :first-child {
+    border-radius: 6px;
+    padding: 8px 20px;
+    cursor: pointer;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    border: thin solid rgb(188, 212, 240);
+    width: auto;
+    color: rgb(46, 127, 213);
+    font-weight: normal;
+    margin: 0px;
+    font-size: 15px;
+  }
+  & :last-child {
+    border-radius: 6px;
+    padding: 8px 20px;
+    cursor: pointer;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    border: thin solid rgb(242, 68, 94);
+    width: auto;
+    color: rgb(242, 68, 94);
+    font-weight: normal;
+    margin: 0px;
+    font-size: 15px;
+  }
+}

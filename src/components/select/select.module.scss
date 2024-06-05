@@ -1,0 +1,36 @@
+.select {
+  background: #ffffff;
+
+  box-shadow: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  padding: 6px 8px;
+
+  color: #818181;
+  cursor: pointer;
+
+  option {
+    font-size: 14px;
+    color: #6c757d;
+  }
+}
+
+label {
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  display: block;
+  color: #5e5e5e;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.errorMessage {
+  position: absolute;
+  display: block;
+  font-size: 12px;
+  margin-left: 5px;
+  bottom: -18px;
+  color: #ff5050;
+}

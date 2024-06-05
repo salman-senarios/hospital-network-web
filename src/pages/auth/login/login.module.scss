@@ -1,0 +1,129 @@
+@use "styles/_breakpoints.scss" as *;
+
+.bg {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1da1f3;
+  padding: 10px;
+  .p {
+    color: #336acf;
+    position: relative;
+    top: 40px;
+    
+    a {
+      color: #1362a3;
+    }
+  }
+ 
+  .formWraper {
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    max-width: 400px;
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    padding: 40px 60px;
+    @media (max-width: $xxs) {
+      padding: 40px 35px;
+    }
+    @media (max-width: "380px") {
+      padding: 40px 20px;
+    }
+    h1 {
+      color: #464646;
+      font-size: 35px;
+      @media (max-width: $xxs) {
+        font-size: 30px;
+      }
+      @media (max-width: "380px") {
+        font-size: 25px;
+      }
+    }
+    
+    .inputDiv {
+      margin: 5px;
+      justify-content: space-around;
+      width: 100%;
+      padding: 30px 0;
+      display: flex;
+      flex-direction: column;
+      .mainDiv{
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid rgb(196, 196, 196);
+       
+        .iconColor{
+          color: rgb(196, 196, 196);
+        }
+      }
+   
+      .field {
+        margin-top: 25px;
+        border: none;
+        >div{
+          border: none !important;
+        }
+        &:nth-of-type(1) {
+          margin-top: 0;
+        }
+        & input {
+          height: 38px;
+          border: none;
+         outline: none;
+        }
+      }
+      
+    }
+   
+    .btn {
+    border-radius: 6px;
+    height: 38px;
+    font-size: 16px;
+    position: relative;
+    bottom: 2px;
+    }
+    .btn1 {
+      border-radius: 6px;
+      height: 38px;
+      font-size: 16px;
+      position: relative;
+  
+      }
+    .forgotPasswordDiv {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      margin-top: 5px;
+      .forgotPassword {
+        color: #1da1f3;
+        font-size: 15px;
+        text-align: right;
+        position: relative;
+        top: 8px;
+      }
+    }
+    img {
+      /* vertical-align: middle; */
+      border-style: none;
+      width: 205px;
+      /* left: auto; */
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    position: relative;
+    bottom: -9px;
+    color: gray;
+}
+
+  }
+}

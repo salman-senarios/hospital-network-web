@@ -1,0 +1,40 @@
+.card {
+  padding-left: 20px;
+  margin-bottom: 20px;
+
+  overflow: hidden;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 5px;
+    background: #ffcc00;
+  }
+  .cardBody {
+    display: flex;
+    align-items: flex-start;
+    .contentDiv {
+      flex: 1;
+      padding-right: 5px;
+      h5 {
+        font-size: 22px;
+        font-weight: bold;
+        color: #464646;
+      }
+      p {
+        margin-top: 5px;
+        color: #b4b4b4;
+        font-size: 16px;
+      }
+    }
+    .crossImgDiv {
+      margin-left: 15px;
+      img {
+        cursor: pointer;
+      }
+    }
+  }
+}
